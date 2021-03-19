@@ -1,0 +1,152 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+       body {
+        width: 100%;
+  margin: 0;
+  position: fixed;
+}
+        header{
+      background-color: blue;
+       padding: 25px;
+    }
+    .center{
+       margin-left: auto;
+    }
+ul {
+  list-style-type: none;
+  margin:0 0 0 -15px;
+  padding: 0;
+  width: 26%;
+  background-color: lightblue;
+  position: fixed;
+  height: 100%;
+  line-height: 0.75;
+  font-size: 45PX;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: darkblue;
+  color: white;
+  border-style: solid;
+  border-color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: darkblue;
+  color: white;
+}
+.log{
+  text-indent: -30px;
+}
+label{
+  margin:100px; 
+  font-size: 25px;
+  padding: 20px;
+  line-height: 2.2;
+}
+input[type=text], select {
+  background-color: lightblue;
+  width: 50%;
+  padding: 20px 1px;
+  margin: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  font-size: 25px;
+  text-align: center;
+  outline-offset: 1px; 
+}
+
+input[type=submit] {
+  background-color: lightyellow;
+  color: black;
+  padding: 6px 15px 6px 15px;
+  margin-left: 510px;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 17px;
+}
+input[type=reset] {
+  background-color: lightyellow;
+  color: black;
+ padding: 6px 15px 6px 15px;
+  margin: 8px;
+ border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: black;
+ border-radius: 20px;
+  cursor: pointer;
+   font-size: 17px;
+}
+input[type=submit]:hover {
+  background-color: blue;
+}
+input[type=reset]:hover {
+  background-color: blue;
+}
+input[type=text]:hover {
+  background-color: blue;
+}
+div {
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 20px;
+}
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blue;
+   color: white;
+   text-align: center;
+   height:9px;
+   font-size: 25px;
+   padding-bottom: 70px;
+   line-height: 3.05;
+}
+</style>
+</head>
+<body>
+  <header>
+  <img src="D:\FrontEnd\html\Tasks\Images and logos\logo.png" alt="logo" style="height: 65px;width: 310px;">
+ <a href="#" class="fa fa-whatsapp">
+  <img src="D:\FrontEnd\html\Tasks\Images and logos\wp.png" alt="wp" style="height: 35px;width: 35px;float: right;padding-top: 15px;" align="right" class="center"></a>
+ <a href="#"  class="fa fa-facebook">
+  <img src="D:\FrontEnd\html\Tasks\Images and logos\fb.png" alt="fb" style="height: 35px;width: 35px;float: right;padding-top: 15px;" align="right" class="center"></a>
+   <a href="#" class="fa fa-twitter">
+   <img src="D:\FrontEnd\html\Tasks\Images and logos\twitter.jpg" alt="twitter" style="height: 35px;width: 35px;float: right;padding-top: 15px;" align="right" class="center"></a>
+  </header>
+<ul>
+    <li><a href="home1.html">HOME</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <li><a class="active" href="php.html">PHP</a></li>
+</ul>
+<form>
+<div style="margin-left:25%;padding:90px 16px;height:1000px;">
+<div class="log"><b><label for="login" >Login</label></b><br></div>
+<label for="name" >Name:</label>
+<input type="text" id="name" placeholder="Enter your name"><br>
+<label for="Email">Email:</label>
+<input type="text" id="Email" placeholder="Enter your E-mail"><br>
+<input type="submit" value="submit">
+<input type="reset" name="Reset">
+</div>
+<footer>
+@copyright-2021
+</footer>
+ </body>
+ </html>
